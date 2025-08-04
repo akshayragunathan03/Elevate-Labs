@@ -7,3 +7,46 @@ Also attached schema to the tables..
 
 Code: 
 
+CREATE DATABASE LibraryDB;
+USE LibraryDB;
+
+CREATE TABLE Authors (
+    AuthorID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Bio TEXT
+);
+
+CREATE TABLE Books (
+    BookID INT AUTO_INCREMENT PRIMARY KEY,
+    Title VARCHAR(200) NOT NULL,
+    Genre VARCHAR(50),
+    Published INT,
+    AuthorID INT,
+    FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID)
+);
+CREATE TABLE Members (
+    MemberID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    JoinDate DATE 
+);
+CREATE TABLE Staff (
+    StaffID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Role VARCHAR(50)
+);
+
+CREATE TABLE Loans (
+    LoanID INT AUTO_INCREMENT PRIMARY KEY,
+    BookID INT,
+    MemberID INT,
+    StaffID INT,
+    LoanDate DATE DEFAULT CURRENT_DATE,
+    ReturnDate DATE,
+    FOREIGN KEY (BookID) REFERENCES Books(BookID),
+    FOREIGN KEY (MemberID) REFERENCES Members(MemberID),
+    FOREIGN KEY (StaffID) REFERENCES Staff(StaffID)
+);
+
+
+
