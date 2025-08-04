@@ -1,4 +1,4 @@
-# Elevate-Labs-Task1-
+# Elevate-Labs
 Tasks Given by Elevate Labs.  
 
 # Task 1 - Create tables and establishing relationships..
