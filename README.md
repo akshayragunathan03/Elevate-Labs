@@ -5,7 +5,7 @@ Tasks Given by Elevate Labs.
 Created Five tables (Author , Books, Loans,Members,Staff) and created relationships between them using constraints(Foreign keys)..
 Also attached schema to the tables..
 
-#Task 2 - CRUD Operations in each table 
+# Task 2 - CRUD Operations in each table 
 
 Inserted values into Authors,Books,Members,Staff,Loans and established based on their datatypes
 Also Perfromed Updation , deletion in the tables..
