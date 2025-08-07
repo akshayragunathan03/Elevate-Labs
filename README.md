@@ -9,5 +9,10 @@ Also attached schema to the tables..
 
 Inserted values into Authors,Books,Members,Staff,Loans and established based on their datatypes
 Also Perfromed Updation , deletion in the tables..
- 
+
+# Task 3 - Writing Basic Select Queries
+
+Used SELECT * and specific columns
+Applied WHERE, AND, OR, LIKE, BETWEEN
+Sorted with ORDER BY
 
