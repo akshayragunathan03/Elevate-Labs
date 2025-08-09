@@ -16,3 +16,6 @@ Used SELECT * and specific columns
 Applied WHERE, AND, OR, LIKE, BETWEEN
 Sorted with ORDER BY
 
+# Task 4 - Using Aggregate Functions
+
+Used Count,Avg,Max,Having in employee table
