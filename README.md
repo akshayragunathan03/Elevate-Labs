@@ -19,3 +19,16 @@ Sorted with ORDER BY
 # Task 4 - Using Aggregate Functions
 
 Used Count,Avg,Max,Having in employee table
+
+# Task 5 - Merging Data of Tables
+
+Created two related tables (e.g., Customers, Orders on related with id)
+Performed  INNER, LEFT, RIGHT, FULL JOIN operations
+
+# Task 6 - Query logics 
+
+Performed IN,NOT IN, EXISTS on Customer order's Table
+
+# Task 7 - Created Views
+
+Created views of complex SELECT Clause by using Customer , order Tables..
