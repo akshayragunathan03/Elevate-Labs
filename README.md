@@ -32,3 +32,9 @@ Performed IN,NOT IN, EXISTS on Customer order's Table
 # Task 7 - Created Views
 
 Created views of complex SELECT Clause by using Customer , order Tables..
+
+# Task 8 -  Stored Procedures and Functions
+
+Created Functions on order_details Database and performed some procedures (i.e Order_count)
+Developed SQL Logic into a reusable code for better functionality and standarised
+Created One Function , Two Procedures into Standards . 
