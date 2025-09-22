@@ -38,3 +38,18 @@ Created views of complex SELECT Clause by using Customer , order Tables..
 Created Functions on order_details Database and performed some procedures (i.e Order_count)
 Developed SQL Logic into a reusable code for better functionality and standarised
 Created One Function , Two Procedures into Standards . 
+
+# Project - Online Retail Sales Analysis
+A comprehensive, production-ready SQL database design for a modern e-commerce platform. This project demonstrates advanced database architecture principles, complex query optimization, and real-world business intelligence capabilities.
+
+🚀 Project Overview
+This database solution powers a complete online retail ecosystem, efficiently handling products, customers, orders, payments, and inventory management. Built with MySQL, it implements industry-best practices for scalability, data integrity, and performance.
+
+# Database Design Skills
+Entity-Relationship modeling
+
+Normalization techniques (1NF, 2NF, 3NF)
+
+Indexing strategies for performance
+
+Constraint management for data integrity
